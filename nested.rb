@@ -84,26 +84,26 @@ def adding_matz
 end
 adding_matz
 
-# def changing_alan
-#   programmer_hash = 
-# 		{
-#       :grace_hopper => {
-#         :known_for => "COBOL",
-#         :languages => ["COBOL", "FORTRAN"]
-#       },
-#       :alan_kay => {
-#         :known_for => "Object Orientation",
-#         :languages => ["Smalltalk", "LISP"]
-#       },
-#       :dennis_ritchie => {
-#         :known_for => "Unix",
-#         :languages => ["C"]
-#       }
-#     }
-#   programmer_hash[:alan_kay][:known_for]="GUI"
-#   puts programmer_hash
-# end
-# changing_alan
+def changing_alan
+  programmer_hash = 
+		{
+      :grace_hopper => {
+        :known_for => "COBOL",
+        :languages => ["COBOL", "FORTRAN"]
+      },
+      :alan_kay => {
+        :known_for => "Object Orientation",
+        :languages => ["Smalltalk", "LISP"]
+      },
+      :dennis_ritchie => {
+        :known_for => "Unix",
+        :languages => ["C"]
+      }
+    }
+  programmer_hash[:alan_kay][:known_for]="GUI"
+  puts programmer_hash
+end
+changing_alan
 
 # def adding_to_dennis
 # 	programmer_hash = 
