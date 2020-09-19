@@ -1,7 +1,7 @@
 def hopper
 	programmer_hash = 
 		{
-      :grace_hopper => { # Added Bracket
+      :grace_hopper => {
         :known_for => "COBOL",
         :languages => ["COBOL", "FORTRAN"]
       },
@@ -14,9 +14,9 @@ def hopper
         :languages => ["C"]
       }
     }
-    programmer_hash[:grace_hopper] # get value of grace hopper key in hash
+    programmer_hash[:grace_hopper] in hash
 end
-hopper # run the function
+hopper
 
 def alan_kay_is_known_for
   programmer_hash = 
